@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest # You can change this to other OS if needed
+    runs-on: ubuntu-latest 
 
     steps:
     - name: Checkout Repository
@@ -20,7 +20,7 @@ jobs:
         node-version: '14'
 
     - name: Install Dependencies
-      run: npm install # Replace with your package manager and command
+      run: npm install 
 
     - name: Run Unit Tests
       run: bash run_tests.sh
